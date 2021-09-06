@@ -28,6 +28,9 @@ import LandingPage from "views/examples/LandingPage.js";
 import RegisterPage from "views/examples/RegisterPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
 import Training from "views/examples/Training";
+import Terms from "views/examples/Terms";
+import Privacy from "views/examples/Privacy";
+import Refund from "views/examples/Refund";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -44,6 +47,18 @@ ReactDOM.render(
       <Route
         path="/profile-page"
         render={(props) => <ProfilePage {...props} />}
+      />
+       <Route
+        path="/terms-page"
+        render={(props) => <Terms {...props} />}
+      />
+      <Route
+        path="/refund-page"
+        render={(props) => <Refund {...props} />}
+      />
+      <Route
+        path="/privacy-page"
+        component={Privacy}
       />
       <Route
         path="/react-training"

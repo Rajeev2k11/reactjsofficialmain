@@ -113,31 +113,31 @@ export default function ExamplesNavbar() {
             <NavItem className="p-0">
               <NavLink
                 data-placement="bottom"
-                href="https://twitter.com/CreativeTim"
+                href="https://chat.whatsapp.com/EzzRApWW651JeO958qwb42"
                 rel="noopener noreferrer"
                 target="_blank"
-                title="Follow us on Twitter"
+                title="Join our WhatsApp group"
               >
-                <i className="fab fa-twitter" />
-                <p className="d-lg-none d-xl-none">Twitter</p>
+                <i className="fab fa-whatsapp" />
+                <p className="d-lg-none d-xl-none">WhatsApp</p>
               </NavLink>
             </NavItem>
             <NavItem className="p-0">
               <NavLink
                 data-placement="bottom"
-                href="https://www.facebook.com/CreativeTim"
+                href="https://t.me/joinchat/RadJamoTjPJsI3k4"
                 rel="noopener noreferrer"
                 target="_blank"
-                title="Like us on Facebook"
+                title="Find us on telegram"
               >
-                <i className="fab fa-facebook-square" />
-                <p className="d-lg-none d-xl-none">Facebook</p>
+                <i className="fab fa-telegram" />
+                <p className="d-lg-none d-xl-none">Telegram</p>
               </NavLink>
             </NavItem>
             <NavItem className="p-0">
               <NavLink
                 data-placement="bottom"
-                href="https://www.instagram.com/CreativeTimOfficial"
+                href="https://www.instagram.com/reactjsofficial/"
                 rel="noopener noreferrer"
                 target="_blank"
                 title="Follow us on Instagram"
@@ -157,9 +157,10 @@ export default function ExamplesNavbar() {
               </Button>
             </NavItem>
             <NavItem>
-            <NavLink tag={Link} to="/">
+            <NavLink tag={Link} to="/react-training">
                 React Training
               </NavLink>
+              </NavItem><NavItem>
               <NavLink tag={Link} to="/">
                 Blog
               </NavLink>

@@ -35,7 +35,7 @@ export default function Footer() {
       <Container>
         <Row>
           <Col md="3">
-            <h1 className="title">BLK•</h1>
+            <h2 className="title">REACTJSOFFICIAL•</h2>
           </Col>
           <Col md="3">
             <Nav>
@@ -44,19 +44,20 @@ export default function Footer() {
                   Home
                 </NavLink>
               </NavItem>
+              
               <NavItem>
-                <NavLink to="/landing-page" tag={Link}>
-                  Landing
+                <NavLink to="/refund-page" tag={Link}>
+                  Refund Policy
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/register-page" tag={Link}>
-                  Register
+                <NavLink to="/privacy-page" tag={Link}>
+                  Privacy Policy
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/profile-page" tag={Link}>
-                  Profile
+                <NavLink to="/Terms-page" tag={Link}>
+                  Terms of use
                 </NavLink>
               </NavItem>
             </Nav>
@@ -64,7 +65,7 @@ export default function Footer() {
           <Col md="3">
             <Nav>
               <NavItem>
-                <NavLink href="https://creative-tim.com/contact-us?ref=blkdsr-footer">
+                <NavLink href="/landing-page#contact">
                   Contact Us
                 </NavLink>
               </NavItem>
@@ -74,15 +75,11 @@ export default function Footer() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://creative-tim.com/blog?ref=blkdsr-footer">
+                <NavLink href="#">
                   Blog
                 </NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink href="https://opensource.org/licenses/MIT">
-                  License
-                </NavLink>
-              </NavItem>
+              
             </Nav>
           </Col>
           <Col md="3">
@@ -91,35 +88,35 @@ export default function Footer() {
               <Button
                 className="btn-icon btn-neutral btn-round btn-simple"
                 color="default"
-                href="https://twitter.com/creativetim"
+                href="https://chat.whatsapp.com/EzzRApWW651JeO958qwb42"
                 id="tooltip622135962"
                 target="_blank"
               >
-                <i className="fab fa-twitter" />
+                <i className="fab fa-whatsapp" />
               </Button>
               <UncontrolledTooltip delay={0} target="tooltip622135962">
-                Follow us
+                Joinchat
               </UncontrolledTooltip>
               <Button
                 className="btn-icon btn-neutral btn-round btn-simple"
                 color="default"
-                href="https://www.facebook.com/creativetim"
+                href="https://t.me/joinchat/RadJamoTjPJsI3k4"
                 id="tooltip230450801"
                 target="_blank"
               >
-                <i className="fab fa-facebook-square" />
+                <i className="fab fa-telegram" />
               </Button>
               <UncontrolledTooltip delay={0} target="tooltip230450801">
-                Like us
+                Join
               </UncontrolledTooltip>
               <Button
                 className="btn-icon btn-neutral btn-round btn-simple"
                 color="default"
-                href="https://dribbble.com/creativetim"
+                href="https://www.instagram.com/reactjsofficial/"
                 id="tooltip318450378"
                 target="_blank"
               >
-                <i className="fab fa-dribbble" />
+                <i className="fab fa-instagram" />
               </Button>
               <UncontrolledTooltip delay={0} target="tooltip318450378">
                 Follow us
