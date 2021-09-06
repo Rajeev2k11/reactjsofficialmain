@@ -98,7 +98,7 @@ export default function Training(){
                   <CardBody>
                     <Row>
                       <Col className="text-center" md="12">
-                        <h4 className="text-uppercase">September 4</h4>
+                        <h4 className="text-uppercase">September 11</h4>
                         <span>Weekends</span>
                         <hr className="line-warning" />
                       </Col>
@@ -131,7 +131,7 @@ export default function Training(){
                   <CardBody>
                     <Row>
                       <Col className="text-center" md="12">
-                        <h4 className="text-uppercase">SEPTEMBER 6</h4>
+                        <h4 className="text-uppercase">SEPTEMBER 13</h4>
                         <span>Weekdays</span>
                         <hr className="line-success" />
                       </Col>
@@ -177,7 +177,7 @@ export default function Training(){
                     </Row>
                   </CardBody>
                   <CardFooter className="text-center">
-                    <Button href="https://buy.stripe.com/fZecMU0vqdnCgQU7su" className="btn-simple" color="info">
+                    <Button href="https://form.jotform.com/212483596464465" className="btn-simple" color="info">
                       Enroll Now
                     </Button>
                   </CardFooter>

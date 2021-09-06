@@ -129,23 +129,23 @@ export default function LandingPage() {
                     <Button
                       className="btn-icon btn-simple btn-round btn-neutral"
                       color="default"
-                      href="#pablo"
+                      href="https://t.me/joinchat/RadJamoTjPJsI3k4"
                       onClick={(e) => e.preventDefault()}
                     >
-                      <i className="fab fa-twitter" />
+                      <i className="fab fa-telegram" />
                     </Button>
                     <Button
                       className="btn-icon btn-simple btn-round btn-neutral"
                       color="default"
-                      href="#pablo"
+                      href="https://www.instagram.com/reactjsofficial/"
                       onClick={(e) => e.preventDefault()}
                     >
-                      <i className="fab fa-dribbble" />
+                      <i className="fab fa-instagram" />
                     </Button>
                     <Button
                       className="btn-icon btn-simple btn-round btn-neutral"
                       color="default"
-                      href="#pablo"
+                      href="https://www.facebook.com/groups/363999681229835"
                       onClick={(e) => e.preventDefault()}
                     >
                       <i className="fab fa-facebook" />
@@ -490,9 +490,10 @@ export default function LandingPage() {
                   <div className="description">
                     <h4 className="info-title">Find us at the office</h4>
                     <p>
-                      Bld Mihail Kogalniceanu, nr. 8, <br />
-                      7652 Bucharest, <br />
-                      Romania
+                      Bangalore, <br />
+                      India <br />
+                      Email: info@reactjsofficial.com
+                  
                     </p>
                   </div>
                 </div>
@@ -503,9 +504,9 @@ export default function LandingPage() {
                   <div className="description">
                     <h4 className="info-title">Give us a ring</h4>
                     <p>
-                      Michael Jordan <br />
-                      +40 762 321 762 <br />
-                      Mon - Fri, 8:00-22:00
+                      Reactjsofficial <br />
+                      +91 7209 236123 <br />
+                      Mon - Sat, 10:00am-10:00pm
                     </p>
                   </div>
                 </div>
