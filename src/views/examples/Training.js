@@ -27,7 +27,7 @@ import {
 import Details from "views/IndexSections/Details";
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar";
 import JavaScript from "views/IndexSections/JavaScript";
-
+import ReactJstraining from  "../../assets/ReactJsTraining.pdf"
 
 export default function Training(){
     const [isOpen, setIsOpen] = useState(false);
@@ -72,7 +72,7 @@ export default function Training(){
   
 </Row>
 </Container>
-<Container><Button color="primary">Enroll Now</Button></Container>
+<Container><Button target="blank" href="https://form.jotform.com/212483596464465" color="primary">Enroll Now</Button></Container>
 <br/><br/><br/><br/>
 <Container>
 <Container>
@@ -112,7 +112,7 @@ export default function Training(){
                     </Row>
                   </CardBody>
                   <CardFooter className="text-center">
-                    <Button href="https://buy.stripe.com/3cs8wEba43N2gQU000" target="blank" className="btn-simple" color="warning">
+                    <Button href="https://form.jotform.com/212483596464465" target="blank" className="btn-simple" color="warning">
                       Enroll Now
                     </Button>
                   </CardFooter>
@@ -145,7 +145,7 @@ export default function Training(){
                     </Row>
                   </CardBody>
                   <CardFooter className="text-center">
-                    <Button href="https://buy.stripe.com/3cs8wEba43N2gQU000" className="btn-simple" color="success">
+                    <Button href="https://form.jotform.com/212483596464465" className="btn-simple" color="success">
                       Enroll Now
                     </Button>
                   </CardFooter>
@@ -239,7 +239,7 @@ export default function Training(){
     <CardBody>
       
         <CardText>We have reverse engineered our syllabus by talking to the best companies and understanding what skills the industry needs the most right now.</CardText>
-        <a href="./assets/React.pdf" download><Button color="primary">Download Syllabus</Button></a>
+        <a href={ReactJstraining} target="blank" download><Button color="primary">Download Syllabus</Button></a>
     </CardBody>
 </Card><br /> <br /><br />
                 <h3><span className="text-success">Still confused! </span><br/>Drop your details & get a call back from our academic counselling expert</h3>

@@ -145,15 +145,12 @@ class Details extends React.Component {
               <CardBody>
                 <Row>
                 <Col>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Basic Setup</h5>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Introduction to ReactJS</h5>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Understand the View Technology</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> DOM</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> Virtual Dom and its working</h5>
                     
                     </Col>
                     <Col>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Single Page Application vs Multipage Application</h5>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Overview of ReactJS</h5>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Understand JavaScript MVC Architecture</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> React Elements</h5>
                     
                     </Col>
                 </Row>
@@ -183,15 +180,14 @@ class Details extends React.Component {
               <CardBody>
                 <Row>
                 <Col>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Basic Setup</h5>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Introduction to ReactJS</h5>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Understand the View Technology</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> React Lifecycle</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> Class components</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> Functional based components</h5>
                     
                     </Col>
                     <Col>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Single Page Application vs Multipage Application</h5>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Overview of ReactJS</h5>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Understand JavaScript MVC Architecture</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> Functional vs Class Component</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> Conditional Rendering</h5>
                     
                     </Col>
                 </Row>
@@ -221,15 +217,14 @@ class Details extends React.Component {
               <CardBody>
                 <Row>
                 <Col>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Basic Setup</h5>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Introduction to ReactJS</h5>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Understand the View Technology</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> States</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> Event handling, props</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> Using props for data passing</h5>
                     
                     </Col>
                     <Col>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Single Page Application vs Multipage Application</h5>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Overview of ReactJS</h5>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Understand JavaScript MVC Architecture</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> Building forms in React</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> Data Binding</h5>
                     
                     </Col>
                 </Row>
@@ -259,15 +254,14 @@ class Details extends React.Component {
               <CardBody>
                 <Row>
                 <Col>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Basic Setup</h5>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Introduction to ReactJS</h5>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Understand the View Technology</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> Routes</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> Navigation using Links</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> React-router</h5>
                     
                     </Col>
                     <Col >
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Single Page Application vs Multipage Application</h5>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Overview of ReactJS</h5>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Understand JavaScript MVC Architecture</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> Nested Routes</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> Pure Components</h5>
                     
                     </Col>
                 </Row>
@@ -286,7 +280,7 @@ class Details extends React.Component {
                 data-toggle="collapse"
                 onClick={(e) => {e.preventDefault();this.collapsesToggle("collapseSeven")}}
               >
-               <span className="text-primary h4">React key features{" "}</span>
+               <span className="text-primary h4">React-hooks{" "}</span>
 
               </a>
             </CardHeader>
@@ -297,15 +291,15 @@ class Details extends React.Component {
               <CardBody>
                 <Row>
                 <Col>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Basic Setup</h5>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Introduction to ReactJS</h5>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Understand the View Technology</h5>
+                <h5><i className="tim-icons icon-double-right text-warning"/> What are hooks?</h5>
+
+                    <h5><i className="tim-icons icon-double-right text-warning"/> UseState()</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/>  UseEffect()</h5>
                     
                     </Col>
                     <Col>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Single Page Application vs Multipage Application</h5>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Overview of ReactJS</h5>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Understand JavaScript MVC Architecture</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> UseDispatch()</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> UseSelector()</h5>
                     
                     </Col>
                 </Row>
@@ -324,7 +318,7 @@ class Details extends React.Component {
                 data-toggle="collapse"
                 onClick={(e) => {e.preventDefault();this.collapsesToggle("collapseEight")}}
               >
-               <span className="text-primary h4">React Hooks{" "}</span>
+               <span className="text-primary h4">Redux{" "}</span>
 
               </a>
             </CardHeader>
@@ -335,15 +329,51 @@ class Details extends React.Component {
               <CardBody>
                 <Row>
                 <Col>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Basic Setup</h5>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Introduction to ReactJS</h5>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Understand the View Technology</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> Store</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> Actions</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> Reducers</h5>
                     
                     </Col>
                     <Col>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Single Page Application vs Multipage Application</h5>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Overview of ReactJS</h5>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Understand JavaScript MVC Architecture</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> Redux setup</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> Core concepts</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> Three principles</h5>
+                    
+                    </Col>
+                </Row>
+              </CardBody>
+            </Collapse>
+          </Card>
+          <Card className="card-plain">
+            <CardHeader role="tab">
+              <a
+                aria-expanded={this.state.openedCollapses.includes(
+                  "collapseNine"
+                )}
+                href="#pablo"
+                data-parent="#accordion"
+                data-toggle="collapse"
+                onClick={(e) => {e.preventDefault();this.collapsesToggle("collapseNine")}}
+              >
+               <span className="text-primary h4">Backend Data & Deployment{" "}</span>
+
+              </a>
+            </CardHeader>
+            <Collapse
+              role="tabpanel"
+              isOpen={this.state.openedCollapses.includes("collapseNine")}
+            >
+              <CardBody>
+                <Row>
+                <Col>
+                    <h5><i className="tim-icons icon-double-right text-warning"/>Axios </h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> fetching data with api</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> Reducers</h5>
+                    
+                    </Col>
+                    <Col>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> Api implementation</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> Deploying App in AWS</h5>
                     
                     </Col>
                 </Row>
