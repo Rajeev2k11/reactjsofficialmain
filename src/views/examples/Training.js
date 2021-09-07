@@ -27,7 +27,7 @@ import {
 import Details from "views/IndexSections/Details";
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar";
 import JavaScript from "views/IndexSections/JavaScript";
-import ReactJstraining from  "../../assets/ReactJsTraining.pdf"
+import ReactJstraining from  "../../assets/Syllabus.pdf"
 
 export default function Training(){
     const [isOpen, setIsOpen] = useState(false);

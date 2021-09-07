@@ -422,7 +422,7 @@ export default function LandingPage() {
                 <Card className="card-plain">
                   <CardHeader>
                     <h1 className="profile-title text-left">Contact</h1>
-                    <h5 className="text-on-back">03</h5>
+                    <h5 className="text-on-back">101</h5>
                   </CardHeader>
                   <CardBody>
                     <Form onSubmit={sendEmail}>
@@ -505,7 +505,7 @@ export default function LandingPage() {
                     <h4 className="info-title">Give us a ring</h4>
                     <p>
                       Reactjsofficial <br />
-                      +91 7209 236123 <br />
+                      +91 7209 236123, +91 9981 693834 <br />
                       Mon - Sat, 10:00am-10:00pm
                     </p>
                   </div>

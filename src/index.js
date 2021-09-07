@@ -31,6 +31,7 @@ import Training from "views/examples/Training";
 import Terms from "views/examples/Terms";
 import Privacy from "views/examples/Privacy";
 import Refund from "views/examples/Refund";
+import About from "views/examples/About";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -43,6 +44,10 @@ ReactDOM.render(
       <Route
         path="/register-page"
         render={(props) => <RegisterPage {...props} />}
+      />
+      <Route
+        path="/about-page"
+        render={(props) => <About {...props} />}
       />
       <Route
         path="/profile-page"

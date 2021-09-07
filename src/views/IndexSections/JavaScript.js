@@ -81,7 +81,7 @@ export default function JavaScript() {
               <Button
                 className="mt-4"
                 color="warning"
-                href="https://demos.creative-tim.com/blk-design-system-react/#/documentation/alert"
+                href="#"
               >
                 Connect
               </Button>
