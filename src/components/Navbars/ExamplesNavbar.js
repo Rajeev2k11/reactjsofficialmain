@@ -161,8 +161,8 @@ export default function ExamplesNavbar() {
                 React Training
               </NavLink>
               </NavItem><NavItem>
-              <NavLink tag={Link} to="/">
-                Blog
+              <NavLink tag={Link} to="/job-page">
+                Become Our Team
               </NavLink>
             </NavItem>
             <NavItem>

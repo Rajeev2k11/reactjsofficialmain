@@ -32,6 +32,7 @@ import Terms from "views/examples/Terms";
 import Privacy from "views/examples/Privacy";
 import Refund from "views/examples/Refund";
 import About from "views/examples/About";
+import Job from "views/examples/Job";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -60,6 +61,10 @@ ReactDOM.render(
       <Route
         path="/refund-page"
         render={(props) => <Refund {...props} />}
+      />
+      <Route
+        path="/job-page"
+        render={(props) => <Job {...props} />}
       />
       <Route
         path="/privacy-page"
