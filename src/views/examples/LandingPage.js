@@ -55,16 +55,17 @@ export default function LandingPage() {
     };
   },[]);
 
-  function sendEmail(e) {
-    e.preventDefault();
+  function sendEmail(e){
+		e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-  }
+		emailjs.sendForm('service_gtymsrr', 'template_zahqf6i', e.target, 'user_bKOaYiZidOEf3bp6V7HBM')
+		  .then((result) => {
+			  console.log(result.text);
+		  }, (error) => {
+			  console.log(error.text);
+		  });
+		  e.target.reset();
+	}
   return (
     <>
       <ExamplesNavbar />
@@ -130,7 +131,7 @@ export default function LandingPage() {
                       className="btn-icon btn-simple btn-round btn-neutral"
                       color="default"
                       href="https://t.me/joinchat/RadJamoTjPJsI3k4"
-                      onClick={(e) => e.preventDefault()}
+                      target="blank"
                     >
                       <i className="fab fa-telegram" />
                     </Button>
@@ -138,7 +139,7 @@ export default function LandingPage() {
                       className="btn-icon btn-simple btn-round btn-neutral"
                       color="default"
                       href="https://www.instagram.com/reactjsofficial/"
-                      onClick={(e) => e.preventDefault()}
+                      target="blank"
                     >
                       <i className="fab fa-instagram" />
                     </Button>
@@ -146,7 +147,7 @@ export default function LandingPage() {
                       className="btn-icon btn-simple btn-round btn-neutral"
                       color="default"
                       href="https://www.facebook.com/groups/363999681229835"
-                      onClick={(e) => e.preventDefault()}
+                      target="blank"
                     >
                       <i className="fab fa-facebook" />
                     </Button>
@@ -430,13 +431,13 @@ export default function LandingPage() {
                         <Col md="6">
                           <FormGroup>
                             <label>Your Name</label>
-                            <Input placeholder="Mike" type="text" />
+                            <Input placeholder="Mike" type="text" name="name"/>
                           </FormGroup>
                         </Col>
                         <Col md="6">
                           <FormGroup>
                             <label>Email address</label>
-                            <Input placeholder="type your email" type="email" />
+                            <Input placeholder="type your email" type="email" name="email"/>
                           </FormGroup>
                         </Col>
                       </Row>
@@ -444,13 +445,13 @@ export default function LandingPage() {
                         <Col md="6">
                           <FormGroup>
                             <label>Phone</label>
-                            <Input placeholder="91 8340288884" type="text" />
+                            <Input placeholder="91 8340288884" type="text" name="phone"/>
                           </FormGroup>
                         </Col>
                         <Col md="6">
                           <FormGroup>
                             <label>Company</label>
-                            <Input placeholder="your company name" type="text" />
+                            <Input placeholder="your company name" type="text" name="company"/>
                           </FormGroup>
                         </Col>
                       </Row>
@@ -458,7 +459,7 @@ export default function LandingPage() {
                         <Col md="12">
                           <FormGroup>
                             <label>Message</label>
-                            <Input placeholder="Hello there!" type="text" />
+                            <Input placeholder="Hello there!" type="text" name="message"/>
                           </FormGroup>
                         </Col>
                       </Row>
@@ -467,7 +468,7 @@ export default function LandingPage() {
                         color="primary"
                         data-placement="right"
                         id="tooltip341148792"
-                        type="button"
+                        type="submit"
                       >
                         Send text
                       </Button>

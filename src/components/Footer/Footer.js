@@ -79,6 +79,11 @@ export default function Footer() {
                   Blog
                 </NavLink>
               </NavItem>
+              <NavItem>
+                <NavLink href="/job-page">
+                  Work for us
+                </NavLink>
+              </NavItem>
               
             </Nav>
           </Col>
