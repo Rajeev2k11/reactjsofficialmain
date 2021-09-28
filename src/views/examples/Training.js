@@ -98,7 +98,7 @@ export default function Training(){
                   <CardBody>
                     <Row>
                       <Col className="text-center" md="12">
-                        <h4 className="text-uppercase">September 11</h4>
+                        <h4 className="text-uppercase">October 16</h4>
                         <span>Weekends</span>
                         <hr className="line-warning" />
                       </Col>
