@@ -18,8 +18,10 @@ import {
   FormGroup,
   Input,
   UncontrolledTooltip,
-  Form
+  Form,
+  UncontrolledAlert
 } from "reactstrap";
+
 import {  CardImg, CardText } from 'reactstrap';
 // core components
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
@@ -68,6 +70,7 @@ export default function LandingPage() {
   return (
     <>
       <ExamplesNavbar />
+      
       <div className="wrapper">
         <div className="page-header">
           <img
@@ -100,7 +103,15 @@ export default function LandingPage() {
             className="shapes circle"
             src={cercuri}
           />
+        
           <div className="content-center">
+          <UncontrolledAlert className="alert-with-icon" color="primary">
+          <span data-notify="icon" className="tim-icons icon-coins" />
+          <span>
+            <b>20% OFF -</b>
+            Use code "FIRST20" to get 20% for first 10 Enroll "
+          </span>
+        </UncontrolledAlert>
             <Row className="row-grid justify-content-between align-items-center text-left">
               <Col lg="6" md="6">
                 <h1 className="text-white">

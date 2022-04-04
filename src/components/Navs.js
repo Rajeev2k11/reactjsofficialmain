@@ -16,7 +16,8 @@ import {
   TabContent,
   TabPane,
   Row,
-  Col
+  Col,
+  UncontrolledAlert
 } from "reactstrap";
 
 class Navs extends React.Component {
@@ -105,7 +106,12 @@ class Navs extends React.Component {
     <CardBody>
         <CardText>
           <span className="text-info">Course Fees</span><br/>
-          <span style={{fontSize:"30px", fontWeight:800}}>₹7990.00 <br/></span><span><del className="text-warning">₹10000.00</del> Discount Offered</span><br/>
+          <span style={{fontSize:"30px", fontWeight:800}}>₹10,000.00 <UncontrolledAlert className="alert-with-icon" color="primary">
+          <span data-notify="icon" className="tim-icons icon-coins" />
+          <span>
+            Use code "FIRST20" to get 20% OFF
+          </span>
+        </UncontrolledAlert> <br/></span><span> Discount Offered - Get this course at ₹8000</span><br/>
           <br /><h4>We have limited seats... HURRY UP </h4>
           <div className="progress-container progress-success">
           <span className="progress-badge">Available seats</span>
