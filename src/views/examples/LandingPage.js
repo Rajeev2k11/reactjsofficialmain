@@ -66,6 +66,7 @@ export default function LandingPage() {
 			  console.log(error.text);
 		  });
 		  e.target.reset();
+      
 	}
   return (
     <>
@@ -105,13 +106,14 @@ export default function LandingPage() {
           />
         
           <div className="content-center">
-          <UncontrolledAlert className="alert-with-icon" color="primary">
+             <UncontrolledAlert className="alert-with-icon" color="primary">
           <span data-notify="icon" className="tim-icons icon-coins" />
           <span>
             <b>20% OFF -</b>
-            Use code "FIRST20" to get 20% for first 10 Enroll "
+            Use code "FIRST20" to get 20% off for first 10 Enrollments
           </span>
         </UncontrolledAlert>
+         
             <Row className="row-grid justify-content-between align-items-center text-left">
               <Col lg="6" md="6">
                 <h1 className="text-white">
