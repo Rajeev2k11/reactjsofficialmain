@@ -29,6 +29,21 @@ import ExamplesNavbar from "components/Navbars/ExamplesNavbar";
 import JavaScript from "views/IndexSections/JavaScript";
 import ReactJstraining from  "../../assets/Syllabus.pdf"
 
+import path3 from '../../assets/img/path3.png'
+import onlineclass from '../../assets/img/online-class.png'
+import REACTLOGO from '../../assets/img/REACTLOGO.png'
+import java from '../../assets/img/java.png'
+import download from '../../assets/img/download.png'
+import html from '../../assets/img/html.png'
+import certi from '../../assets/img/certi.png'
+import projectmanagement from '../../assets/img/project-management.png'
+import deployment from '../../assets/img/deployment.png'
+import agile from '../../assets/img/agile.png'
+import gith from '../../assets/img/gith.png'
+import css from '../../assets/img/css.png'
+
+
+
 export default function Training(){
     const [isOpen, setIsOpen] = useState(false);
 
@@ -53,7 +68,7 @@ export default function Training(){
         style={{width: '88%'}}
         alt="..."
         className="path"
-        src={require("assets/img/path3.png").default}
+        src={path3}
       />
 
 
@@ -92,13 +107,13 @@ export default function Training(){
                     <img
                       alt="..."
                       className="img-center img-fluid"
-                      src={require("assets/img/online-class.png").default}
+                      src={onlineclass}
                     />
                   </CardHeader>
                   <CardBody>
                     <Row>
                       <Col className="text-center" md="12">
-                        <h4 className="text-uppercase">October 16</h4>
+                        <h4 className="text-uppercase">April 16</h4>
                         <span>Weekends</span>
                         <hr className="line-warning" />
                       </Col>
@@ -106,7 +121,7 @@ export default function Training(){
                     <Row>
                       <ListGroup>
                         <ListGroupItem>01:00pm - 03:00pm</ListGroupItem>
-                        <ListGroupItem>4-6 weeks</ListGroupItem>
+                        <ListGroupItem>8 weeks</ListGroupItem>
                         <ListGroupItem>Sat-Sun</ListGroupItem>
                       </ListGroup>
                     </Row>
@@ -125,22 +140,22 @@ export default function Training(){
                     <img
                       alt="..."
                       className="img-center img-fluid"
-                      src={require("assets/img/online-class.png").default}
+                      src={onlineclass}
                     />
                   </CardHeader>
                   <CardBody>
                     <Row>
                       <Col className="text-center" md="12">
-                        <h4 className="text-uppercase">SEPTEMBER 13</h4>
-                        <span>Weekdays</span>
+                        <h4 className="text-uppercase">May 1</h4>
+                        <span>Weekends</span>
                         <hr className="line-success" />
                       </Col>
                     </Row>
                     <Row>
                       <ListGroup>
-                        <ListGroupItem>01:00pm - 02:00pm</ListGroupItem>
-                        <ListGroupItem>4-6 weeks</ListGroupItem>
-                        <ListGroupItem>Mon-Thu</ListGroupItem>
+                        <ListGroupItem>10:30am - 12:30pm</ListGroupItem>
+                        <ListGroupItem>8 weeks</ListGroupItem>
+                        <ListGroupItem>Sat-Sun</ListGroupItem>
                       </ListGroup>
                     </Row>
                   </CardBody>
@@ -157,21 +172,21 @@ export default function Training(){
                     <img
                       alt="..."
                       className="img-center img-fluid"
-                      src={require("assets/img/online-class.png").default}
+                      src={onlineclass}
                     />
                   </CardHeader>
                   <CardBody>
                     <Row>
                       <Col className="text-center" md="12">
-                        <h4 className="text-uppercase">September 13</h4>
+                        <h4 className="text-uppercase">Coming soon</h4>
                         <span>Weekdays</span>
                         <hr className="line-info" />
                       </Col>
                     </Row>
                     <Row>
                       <ListGroup>
-                        <ListGroupItem>08:30pm - 09:30pm</ListGroupItem>
-                        <ListGroupItem>4-6 weeks</ListGroupItem>
+                        <ListGroupItem>---  ---</ListGroupItem>
+                        <ListGroupItem>8 weeks</ListGroupItem>
                         <ListGroupItem>Mon-Thu</ListGroupItem>
                       </ListGroup>
                     </Row>
@@ -207,24 +222,24 @@ export default function Training(){
                 <Col sm="12" md="6">
                   <Row>
                     <Col>
-                      <img  style={{height:"5rem", margin:"10px"}} src={require("assets/img/REACTLOGO.png").default} alt="..."/>
+                      <img  style={{height:"5rem", margin:"10px"}} src={REACTLOGO} alt="..."/>
                     </Col>
                     <Col>
-                      <img style={{height:"5rem", margin:"10px"}} src={require("assets/img/java.png").default} alt="..."/>
+                      <img style={{height:"5rem", margin:"10px"}} src={java} alt="..."/>
                     </Col>
                     <Col>
-                      <img style={{height:"5rem", margin:"10px"}} src={require("assets/img/download.png").default} alt="..."/>
+                      <img style={{height:"5rem", margin:"10px"}} src={download} alt="..."/>
                     </Col>
                   </Row>
                   <Row>
                   <Col>
-                      <img style={{height:"5rem", margin:"10px"}} src={require("assets/img/html.png").default} alt="..."/>
+                      <img style={{height:"5rem", margin:"10px"}} src={html} alt="..."/>
                     </Col>
                     <Col>
-                      <img style={{height:"5rem", margin:"10px"}} src={require("assets/img/gith.png").default} alt="..."/>
+                      <img style={{height:"5rem", margin:"10px"}} src={gith} alt="..."/>
                     </Col>
                     <Col>
-                      <img style={{height:"5rem", margin:"10px"}} src={require("assets/img/css.png").default} alt="..."/>
+                      <img style={{height:"5rem", margin:"10px"}} src={css} alt="..."/>
                     </Col>
                   </Row>
                 </Col>
@@ -320,7 +335,7 @@ export default function Training(){
           
           <Row style={{marginLeft:"0rem"}}>
             <Col xs="6">
-            <img  style={{height:"4rem"}} src={require("assets/img/project-management.png").default} alt=".." />
+            <img  style={{height:"4rem"}} src={projectmanagement} alt=".." />
             </Col>
 
             <Col xs="6" className="p-2">
@@ -330,7 +345,7 @@ export default function Training(){
           </Row>
           <Row style={{marginLeft:"0rem"}} className="p-2">
             <Col xs="6" >
-            <img  style={{height:"4rem"}} src={require("assets/img/agile.png").default} alt=".." />
+            <img  style={{height:"4rem"}} src={agile} alt=".." />
             </Col>
 
             <Col xs="6" className="p-2">
@@ -340,7 +355,7 @@ export default function Training(){
           </Row>
           <Row style={{display:"flex",justifyContent:"center"}}  className="p-2">
             <Col xs="6" style={{justifyContent:"center"}}>
-            <img  style={{height:"4rem"}} src={require("assets/img/deployment.png").default} alt=".." />
+            <img  style={{height:"4rem"}} src={deployment} alt=".." />
             </Col>
 
             <Col xs="6" className="p-2" >
@@ -352,7 +367,7 @@ export default function Training(){
         </Col>
         <Col sm="6" xs="12" >
           <h3 className="text-center m-2">Certification</h3>
-          <img src={require("assets/img/certi.png").default} alt="" />
+          <img src={certi} alt="" />
         </Col>
       </Row>
 </div>

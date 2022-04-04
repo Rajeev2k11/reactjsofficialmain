@@ -28,7 +28,22 @@ import Footer from "components/Footer/Footer.js";
 import emailjs from 'emailjs-com';
 import { Link } from "react-router-dom";
 
-import LOGO from '../../assets/img/REACTLOGO.png'
+import LOGO from '../../assets/img/REACTLOGO.png';
+import BLOB from '../../assets/img/blob.png';
+import PATH2 from '../../assets/img/path2.png'
+import triunghiuri from '../../assets/img/triunghiuri.png'
+import cercuri from '../../assets/img/cercuri.png'
+import waves from '../../assets/img/waves.png'
+import patrat from '../../assets/img/patrat.png'
+import path4 from '../../assets/img/path4.png'
+import path5 from '../../assets/img/path5.png'
+import community from '../../assets/img/community.png'
+import path3 from '../../assets/img/path3.png'
+import videotut from '../../assets/img/videotut.png'
+import certificate from '../../assets/img/certificate.png'
+import doubt from '../../assets/img/doubt.png'
+import chesterwade from '../../assets/img/chesterwade.png'
+
 
 export default function LandingPage() {
   React.useEffect(() => {
@@ -58,32 +73,32 @@ export default function LandingPage() {
           <img
             alt="..."
             className="path"
-            src={require("assets/img/blob.png").default}
+            src={BLOB}
           />
           <img
             alt="..."
             className="path2"
-            src={require("assets/img/path2.png").default}
+            src={PATH2}
           />
           <img
             alt="..."
             className="shapes triangle"
-            src={require("assets/img/triunghiuri.png").default}
+            src={triunghiuri}
           />
           <img
             alt="..."
             className="shapes wave"
-            src={require("assets/img/waves.png").default}
+            src={waves}
           />
           <img
             alt="..."
             className="shapes squares"
-            src={require("assets/img/patrat.png").default}
+            src={patrat}
           />
           <img
             alt="..."
             className="shapes circle"
-            src={require("assets/img/cercuri.png").default}
+            src={cercuri}
           />
           <div className="content-center">
             <Row className="row-grid justify-content-between align-items-center text-left">
@@ -225,17 +240,17 @@ export default function LandingPage() {
           <img
             alt="..."
             className="path"
-            src={require("assets/img/path4.png").default}
+            src={path4}
           />
           <img
             alt="..."
             className="path2"
-            src={require("assets/img/path5.png").default}
+            src={path5}
           />
           <img
             alt="..."
             className="path3"
-            src={require("assets/img/path2.png").default}
+            src={PATH2}
           />
  
         </section>
@@ -243,7 +258,7 @@ export default function LandingPage() {
           <img
             alt="..."
             className="path"
-            src={require("assets/img/path5.png").default}
+            src={path5}
           />
           <Container>
             <Row className="row-grid justify-content-between">
@@ -251,7 +266,7 @@ export default function LandingPage() {
                 <img
                   alt="..."
                   className="img-fluid floating"
-                  src={require("assets/img/chester-wade.jpg").default}
+                  src={chesterwade}
                 />
                 <Card className="card-stats bg-danger">
                   <CardBody>
@@ -345,7 +360,7 @@ export default function LandingPage() {
           <img
             alt="..."
             className="path"
-            src={require("assets/img/path3.png").default}
+            src={path3}
           />
           <div className="mt-5">
 <Container className="mb-5"><Row>
@@ -353,7 +368,7 @@ export default function LandingPage() {
 <Col xs="12" sm="3">
     <Card style={{width: '15rem'}}>
     
-    <CardImg className="p-5" top src={require("assets/img/community.png").default} alt="community img" />
+    <CardImg className="p-5" top src={community} alt="community img" />
     <CardBody>
       <CardTitle style={{fontSize:"20px", fontWeight:400, textAlign:"center"}}>50K+ COMMUNITY</CardTitle>
         <CardText style={{textAlign:"center"}}>Globally connect through people with the same goal </CardText>
@@ -363,7 +378,7 @@ export default function LandingPage() {
 
     <Col xs="12" sm="3">
     <Card style={{width: '15rem'}}>
-    <CardImg className="p-5" top src={require("assets/img/videotut.png").default} alt="..." />
+    <CardImg className="p-5" top src={videotut} alt="..." />
     <CardBody>
     <CardTitle style={{fontSize:"20px", fontWeight:400, textAlign:"center"}}>50K+ COMMUNITY</CardTitle>
         <CardText style={{textAlign:"center"}}>Globally connect through people with the same goal </CardText>
@@ -374,7 +389,7 @@ export default function LandingPage() {
 
     <Col xs="12" sm="3">
     <Card style={{width: '15rem'}}>
-    <CardImg className="p-5" top src={require("assets/img/certificate.png").default} alt="..." />
+    <CardImg className="p-5" top src={certificate} alt="..." />
     <CardBody>
     <CardTitle style={{fontSize:"20px", fontWeight:400, textAlign:"center"}}>CERTIFICATION</CardTitle>
         <CardText style={{textAlign:"center"}}>Get a Course Completion Certificate as a full-fledged React Developer
@@ -386,7 +401,7 @@ export default function LandingPage() {
 
     <Col xs="12" sm="3">
     <Card style={{width: '15rem'}}>
-    <CardImg className="p-5" top src={require("assets/img/doubt.png").default} alt="..." />
+    <CardImg className="p-5" top src={doubt} alt="..." />
     <CardBody>
         <CardText>Some quick example text to build on the card title and make up the bulk of the card's content</CardText>
     </CardBody>

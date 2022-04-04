@@ -1,20 +1,4 @@
-/*!
 
-=========================================================
-* BLK Design System React - v1.2.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/blk-design-system-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/blk-design-system-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 import classnames from "classnames";
 // javascript plugin used to create scrollbars on windows
@@ -47,19 +31,28 @@ import {
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 import Footer from "components/Footer/Footer.js";
 
+
+import path4 from '../../assets/img/path4.png'
+import denys from '../../assets/img/denys.jpg'
+import dots from '../../assets/img/dots.png'
+import mike from '../../assets/img/mike.jpg'
+import markfinn from '../../assets/img/mark-finn.jpg'
+import fabienbazanegue from '../../assets/img/fabien-bazanegue.jpg'
+// import denys from '../../assets/img/denys.jpg'
+
 const carouselItems = [
   {
-    src: require("assets/img/denys.jpg").default,
+    src: denys,
     altText: "Slide 1",
     caption: "Big City Life, United States",
   },
   {
-    src: require("assets/img/fabien-bazanegue.jpg").default,
+    src: {fabienbazanegue},
     altText: "Slide 2",
     caption: "Somewhere Beyond, United States",
   },
   {
-    src: require("assets/img/mark-finn.jpg").default,
+    src: {markfinn},
     altText: "Slide 3",
     caption: "Stocks, United States",
   },
@@ -97,12 +90,12 @@ export default function ProfilePage() {
           <img
             alt="..."
             className="dots"
-            src={require("assets/img/dots.png").default}
+            src={dots}
           />
           <img
             alt="..."
             className="path"
-            src={require("assets/img/path4.png").default}
+            src={path4}
           />
           <Container className="align-items-center">
             <Row>
@@ -160,7 +153,7 @@ export default function ProfilePage() {
                     <img
                       alt="..."
                       className="img-center img-fluid rounded-circle"
-                      src={require("assets/img/mike.jpg").default}
+                      src={mike}
                     />
                     <h4 className="title">Transactions</h4>
                   </CardHeader>

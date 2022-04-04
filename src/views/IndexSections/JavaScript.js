@@ -1,20 +1,4 @@
-/*!
 
-=========================================================
-* BLK Design System React - v1.2.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/blk-design-system-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/blk-design-system-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 import classnames from "classnames";
 // react plugin used to create datetimepicker
@@ -23,12 +7,10 @@ import ReactDatetime from "react-datetime";
 // reactstrap components
 import {
   Button,
-  FormGroup,
+
   Container,
   Row,
-  Col,
-  
-  UncontrolledCarousel,
+  Col
 } from "reactstrap";
 
 
@@ -81,7 +63,8 @@ export default function JavaScript() {
               <Button
                 className="mt-4"
                 color="warning"
-                href="#"
+                href="https://www.quora.com/Is-Reactjsofficial-training-on-React-worth-it?q=reactjsoff"
+                target="blank"
               >
                 Connect
               </Button>

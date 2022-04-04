@@ -3,7 +3,7 @@ import classnames from "classnames";
 import star from "../assets/img/star.png"
 import { Progress } from "reactstrap";
 import {Button} from 'reactstrap';
-
+import telephone from '../assets/img/telephone.png'
 // reactstrap components
 import {
   Card,
@@ -38,7 +38,8 @@ class Navs extends React.Component {
         <Row>
           <Col md="4">
             <Nav className="nav-pills-primary flex-column" pills>
-              <NavItem>
+
+            <NavItem>
                 <NavLink
                   className={classnames({
                     active: this.state.vertical === 1
@@ -46,7 +47,7 @@ class Navs extends React.Component {
                   onClick={e => this.toggleTabs(e, "vertical", 1)}
                   href="#pablo"
                 >
-                  Syllabus
+                  Course Fees
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -57,9 +58,10 @@ class Navs extends React.Component {
                   onClick={e => this.toggleTabs(e, "vertical", 2)}
                   href="#pablo"
                 >
-                  Course Fees
+                  Syllabus
                 </NavLink>
               </NavItem>
+             
               <NavItem>
                 <NavLink
                   className={classnames({
@@ -75,7 +77,7 @@ class Navs extends React.Component {
           </Col>
           <Col md="8">
             <TabContent activeTab={"vertical" + this.state.vertical}>
-              <TabPane tabId="vertical1">
+              <TabPane tabId="vertical2">
                 <Row>
                   <Col xs="12" sm="6">
                     <h4><span ><img style={{height:"15px" }} src={star} alt="star"/></span> Introduction to Es6</h4>
@@ -97,18 +99,18 @@ class Navs extends React.Component {
                   </Col>
                 </Row>
               </TabPane>
-              <TabPane tabId="vertical2">
+              <TabPane tabId="vertical1">
               <Card >
    
     <CardBody>
         <CardText>
           <span className="text-info">Course Fees</span><br/>
-          <span style={{fontSize:"30px", fontWeight:800}}>₹6990.00 <br/></span><span><del className="text-warning">₹9500.00</del> Discount Offered</span><br/>
+          <span style={{fontSize:"30px", fontWeight:800}}>₹7990.00 <br/></span><span><del className="text-warning">₹10000.00</del> Discount Offered</span><br/>
           <br /><h4>We have limited seats... HURRY UP </h4>
           <div className="progress-container progress-success">
           <span className="progress-badge">Available seats</span>
           <Progress max="100" value="75">
-            <span className="progress-value">75%</span>
+            <span className="progress-value">77%</span>
           </Progress>
         </div>
         </CardText>
@@ -129,7 +131,7 @@ class Navs extends React.Component {
           <Col xs="12" sm="6">
                   <h3>Not Sure?</h3>
                 <h4 className="text-warning">Get in touch with our expert technical advisor</h4>
-                <img style={{height:"4rem"}} src={require("assets/img/telephone.png").default} alt="call icon" /><a href="tel:+917209236123"><span style={{color:"white", fontSize:"1.5rem"}}>+91 7209236123</span></a>
+                <img style={{height:"4rem"}} src={telephone} alt="call icon" /><a href="tel:+917209236123"><span style={{color:"white", fontSize:"1.5rem"}}>+91 7209236123</span></a>
           </Col>
         </Row>
         
