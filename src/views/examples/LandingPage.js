@@ -106,13 +106,13 @@ export default function LandingPage() {
           />
         
           <div className="content-center">
-             <UncontrolledAlert className="alert-with-icon" color="primary">
+             {/* <UncontrolledAlert className="alert-with-icon" color="primary">
           <span data-notify="icon" className="tim-icons icon-coins" />
           <span>
             <b>20% OFF -</b>
             Use code "FIRST20" to get 20% off for limited time.
           </span>
-        </UncontrolledAlert>
+        </UncontrolledAlert> */}
          
             <Row className="row-grid justify-content-between align-items-center text-left">
               <Col lg="6" md="6">
@@ -175,6 +175,7 @@ export default function LandingPage() {
               </Col>
             </Row>
           </div>
+        
         </div>
         
         {/* <blockquote className="blockquote text-center">
@@ -198,7 +199,15 @@ export default function LandingPage() {
 
 
 </blockquote> */}
+
          <Container>
+         <UncontrolledAlert className="alert-with-icon" color="primary">
+          <span data-notify="icon" className="tim-icons icon-coins" />
+          <span>
+            <b>20% OFF -</b>
+            Use code "FIRST20" to get 20% off for limited time.
+          </span>
+        </UncontrolledAlert>
             <Row className="justify-content-center">
               <Col lg="12">
                 <h1 className="text-center">How does our mentorship help you to get 100% profit? </h1>
