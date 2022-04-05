@@ -110,7 +110,7 @@ export default function LandingPage() {
           <span data-notify="icon" className="tim-icons icon-coins" />
           <span>
             <b>20% OFF -</b>
-            Use code "FIRST20" to get 20% off for first 10 Enrollments
+            Use code "FIRST20" to get 20% off for limited time.
           </span>
         </UncontrolledAlert>
          
@@ -505,7 +505,7 @@ export default function LandingPage() {
                     <p>
                       Bangalore, <br />
                       India <br />
-                      Email: info@reactjsofficial.com
+                      Email: reactjsofficial1@gmail.com
                   
                     </p>
                   </div>
@@ -518,7 +518,7 @@ export default function LandingPage() {
                     <h4 className="info-title">Give us a ring</h4>
                     <p>
                       Reactjsofficial <br />
-                      +91 7209 236123, +91 9981 693834 <br />
+                      +91 7209 236123, +91 7764056669 <br />
                       Mon - Sat, 10:00am-10:00pm
                     </p>
                   </div>

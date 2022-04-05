@@ -15,6 +15,7 @@ import {
   Col,
   UncontrolledTooltip,
 } from "reactstrap";
+import telephone from '../../assets/img/telephone.png'
 
 export default function ExamplesNavbar() {
   const [collapseOpen, setCollapseOpen] = React.useState(false);
@@ -146,6 +147,10 @@ export default function ExamplesNavbar() {
               <NavLink href="/landing-page#contact">
                 Contact us
               </NavLink>
+            </NavItem>
+            <NavItem>
+            <img style={{height:"2.1rem"}} src={telephone} alt="call icon" /><a href="tel:+917209236123"><span style={{color:"white", fontSize:"1rem"}}>+91 7209236123</span></a>
+
             </NavItem>
           </Nav>
         </Collapse>

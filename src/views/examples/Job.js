@@ -2,61 +2,89 @@ import React from "react"
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 import Footer from "components/Footer/Footer";
 
+
+import { Button } from "reactstrap";
+
 function Job(){
+   
   return(
     <>
     <ExamplesNavbar />
     <div className="container wrapper" style={{paddingTop:"8rem", paddingBottom:"8rem"}}>
-    <h1 className="text-info">#1 Telemarketer Intern</h1>
-    <h2>Job Description:</h2>
-    <p>We are looking for an enthusiastic Telemarketer to generate sales either by cold calling or answering requests in a fast-paced environment. You will be responsible for influencing existing or potential customers to buy products or services.
+    <h1 className="text-info">Campus Ambassador Program</h1>
 
-</p><p>A successful telemarketer must be friendly and persuasive. You must be able to understand the customer’s requirements in a short time and present solutions that meet their needs. 
-</p>
+    <h2 ><span className="text-primary">|</span> Recruitment Process</h2>
+   
+              
+                <blockquote>
+                  <h2 className="blockquote blockquote-default">
+                  <span className="text-primary">Shortlisting of Candidates</span>
+                  <p>Candidates are shortlisted depending on profile and availability.</p>
+                   
+                  </h2>
+                </blockquote>
+                <blockquote>
+                  <h2 className="blockquote blockquote-default">
+                  <span className="text-primary">Online interview</span>
+                  <p>Shortlisted candidates will be invited for online telephonic interview/ video interview.</p>
+                   
+                  </h2>
+                </blockquote>
+             
+                <h2 ><span className="text-primary">|</span> Job description</h2>
+                <blockquote>
+                  <h2 className="blockquote blockquote-default">
+                      <p><span style={{fontWeight:700}}>Reactjsofficial</span> is looking for Campus Ambassadors who have leadership quality and a strong social media presence.
 
-<h2>Responsibilities:</h2>
-<ul>
-    <li>Cold call people using a given phone directory to sell products.</li>
-    <li>Answer incoming calls from prospective customers.</li>
-    <li>Use scripts to provide information about the product’s features, prices, etc., and present their benefits.</li>
-    <li>Ask pertinent questions to understand the customer’s requirements.
+</p><br />
+                  <span className="text-primary">Responsibilities of the Candidate:</span>
+                  <ul>
+    <li>Create awareness and take care o promotional activities of Learntricks Edutech both online and offline.</li>
+    <li>Work with the team and promote various training and workshops on social media platforms like WhatsApp and Facebook.</li>
+    <li>Get your classmates from your college or nearby colleges to register for the training, workshops, and internship programs.</li>
+    <li>Execute marketing campaigns and engage your college students in activities.
 </li>
-    <li>Persuade the customer to buy by demonstrating how merchandise or services meet their needs.</li>
-    <li>Record the customer’s personal information accurately in a computer system
-</li>
-<li>Deal with complaints or doubts to safeguard the company’s reputation.
-
-</li>
-<li>Go the “extra mile” to meet sales quota and facilitate future sales.
-</li>
-<li>Keep records of calls and sales and record useful information
-</li>
-
 </ul>
-<h2>Requirements:</h2>
+<span className="text-primary">Eligibility:</span>   
 <ul>
-    <li>Proven experience as a telemarketer or similar sales/customer service role.
-</li>
-    <li>Proven track record of successfully meeting sales quotas preferably over the phone.
-</li>
-    <li>Working knowledge of relevant computer programs (e.g. CRM software) and telephone systems.
-</li>
-    <li>Excellent communication and presentation skills.
-
-</li>
-    <li>Skilled in negotiation and dealing with complaints.</li>
-    <li>Persistent and results-oriented.
-</li>
-<li>Patient and able to handle customer rejection.
-
-</li>
-
+    <li>Must be enrolled in any undergraduate/postgraduate program in any college across India</li>
+    <li>Must be active on social media platforms</li>
+    <li>Must have a strong presence and influence in your university or college</li>
+    
 </ul>
-<h3>Salary: 2000 INR + Stipend per month </h3>
-<h2>How to Apply for Hiring: </h2>
-<p>Interested and eligible candidates may apply through mail. Attach your resume with the <span className="text-danger">subject: Telemarketer Intern</span>  and drop on <a href = "mailto: info@reactjsofficial.com">info@reactjsofficial.com</a>
-</p>
+<h4>We seek enthusiastic and responsible students with superior networking abilities, an innovative mindset, and a strong online presence through this program.</h4>
+
+<span className="text-primary">Learning Opportunities:</span>   
+<ul>
+    <li>Improve your communication skills and enhance your network</li>
+    <li>Improve your marketing and promotional skills</li>
+    <li>Enhance your management skills and data handling skills
+</li>
+    
+</ul>
+<p><span style={{fontSize:"1rem", fontWeight:600}}>Selection Procedure:</span> The selection process shall be based on the online application followed by an online interview.</p>
+
+<span className="text-primary">Rewards and Incentives:</span>   
+<ul>
+    <li>Certificate of Excellence from <span style={{fontWeight:600}}>Reactjsofficial</span> for all selected Campus Ambassadors</li>
+    <li>Credit yourself as a Campus Ambassador in your resumes, LinkedIn profile, blogs, personal pages, etc.</li>
+   
+    <li>Incentives on each registration</li>
+     <li>A Certificate of Participation and Letter of Recommendation to you from Kukbit</li>
+
+    
+</ul>
+
+</h2>
+
+</blockquote>
+
+<Button target="Blank" href="https://forms.gle/1Pkk13hLwVxcw5j47" className="btn-round" color="primary" type="button">
+              Apply Now
+            </Button>
     </div>
+
+    
     <Footer />
     </>
   )
