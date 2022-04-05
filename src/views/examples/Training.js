@@ -52,7 +52,7 @@ export default function Training(){
   function sendEmail(e){
 		e.preventDefault();
 
-		emailjs.sendForm('service_gtymsrr', 'template_6r1s3c9', e.target, 'user_bKOaYiZidOEf3bp6V7HBM')
+		emailjs.sendForm('service_yrfuyqd', 'template_6r1s3c9', e.target, 'user_bKOaYiZidOEf3bp6V7HBM')
 		  .then((result) => {
 			  console.log(result.text);
 		  }, (error) => {

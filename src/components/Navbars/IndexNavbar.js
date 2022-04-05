@@ -162,7 +162,7 @@ export default function IndexNavbar() {
                 caret
                 color="default"
                 data-toggle="dropdown"
-                href="#pablo"
+                href="/"
                 nav
                 onClick={(e) => e.preventDefault()}
               >

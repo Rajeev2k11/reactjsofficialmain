@@ -97,7 +97,7 @@ class Details extends React.Component {
                 data-toggle="collapse"
                 onClick={(e) => {e.preventDefault();this.collapsesToggle("collapseTwo")}}
               >
-                <span className="text-primary h4">Introduction to ReactJS{" "}</span>
+                <span className="text-primary h4">Git and Github{" "}</span>
 
               </a>
             </CardHeader>
@@ -108,15 +108,17 @@ class Details extends React.Component {
               <CardBody>
               <Row>
                     <Col>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Basic Setup</h5>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Introduction to ReactJS</h5>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Understand the View Technology</h5>
-                    
+                    <h5><i className="tim-icons icon-double-right text-warning"/> What is Git and GitHub?</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> Installing Git</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> Git file management</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> Branching</h5>
+
                     </Col>
                     <Col>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Single Page Application vs Multipage Application</h5>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Overview of ReactJS</h5>
-                    <h5><i className="tim-icons icon-double-right text-warning"/> Understand JavaScript MVC Architecture</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> Pull requests</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/>Common workflows </h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/>Advanced Topics</h5>
+                   
                     
                     </Col>
                   </Row>
@@ -147,11 +149,15 @@ class Details extends React.Component {
                 <Col>
                     <h5><i className="tim-icons icon-double-right text-warning"/> DOM</h5>
                     <h5><i className="tim-icons icon-double-right text-warning"/> Virtual Dom and its working</h5>
-                    
+                    <h5><i className="tim-icons icon-double-right text-warning"/> Basic Setup</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> Introduction to ReactJS</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> Understand the View Technology</h5>
                     </Col>
                     <Col>
                     <h5><i className="tim-icons icon-double-right text-warning"/> React Elements</h5>
-                    
+                    <h5><i className="tim-icons icon-double-right text-warning"/> Single Page Application vs Multipage Application</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> Overview of ReactJS</h5>
+                    <h5><i className="tim-icons icon-double-right text-warning"/> Understand JavaScript MVC Architecture</h5>
                     </Col>
                 </Row>
               </CardBody>

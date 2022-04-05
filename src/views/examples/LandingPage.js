@@ -59,7 +59,7 @@ export default function LandingPage() {
   function sendEmail(e){
 		e.preventDefault();
 
-		emailjs.sendForm('service_gtymsrr', 'template_zahqf6i', e.target, 'user_bKOaYiZidOEf3bp6V7HBM')
+		emailjs.sendForm('service_yrfuyqd', 'template_zahqf6i', e.target, 'user_bKOaYiZidOEf3bp6V7HBM')
 		  .then((result) => {
 			  console.log(result.text);
 		  }, (error) => {
@@ -379,7 +379,7 @@ export default function LandingPage() {
 <Container className="mb-5"><Row>
 
 <Col xs="12" sm="3">
-    <Card style={{width: '15rem'}}>
+    <Card style={{width: '15rem', height:'25rem'}}>
     
     <CardImg className="p-5" top src={community} alt="community img" />
     <CardBody>
@@ -390,18 +390,18 @@ export default function LandingPage() {
     </Col>
 
     <Col xs="12" sm="3">
-    <Card style={{width: '15rem'}}>
+    <Card style={{width: '15rem', height:'25rem'}}>
     <CardImg className="p-5" top src={videotut} alt="..." />
     <CardBody>
-    <CardTitle style={{fontSize:"20px", fontWeight:400, textAlign:"center"}}>50K+ COMMUNITY</CardTitle>
-        <CardText style={{textAlign:"center"}}>Globally connect through people with the same goal </CardText>
+    <CardTitle style={{fontSize:"20px", fontWeight:400, textAlign:"center"}}>JOB ASSISTANCE</CardTitle>
+        <CardText style={{textAlign:"center"}}>Exclusive placement support team will help you to crack job interview. </CardText>
     </CardBody>
 </Card>
     </Col>
 
 
     <Col xs="12" sm="3">
-    <Card style={{width: '15rem'}}>
+    <Card style={{width: '15rem', height:'25rem'}}>
     <CardImg className="p-5" top src={certificate} alt="..." />
     <CardBody>
     <CardTitle style={{fontSize:"20px", fontWeight:400, textAlign:"center"}}>CERTIFICATION</CardTitle>
@@ -411,12 +411,13 @@ export default function LandingPage() {
 </Card>
     </Col>
 
-
+   
     <Col xs="12" sm="3">
-    <Card style={{width: '15rem'}}>
+    <Card style={{width: '15rem', height:'25rem'}}>
     <CardImg className="p-5" top src={doubt} alt="..." />
     <CardBody>
-        <CardText>Some quick example text to build on the card title and make up the bulk of the card's content</CardText>
+    <CardTitle style={{fontSize:"20px", fontWeight:400, textAlign:"center"}}>DOUBT SOLVING</CardTitle>
+        <CardText style={{textAlign:"center"}}>Getting Stuck While developing? Get all your doubts resolved by our experts.</CardText>
     </CardBody>
 </Card>
     </Col>
