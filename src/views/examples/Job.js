@@ -39,7 +39,7 @@ function Job(){
 </p><br />
                   <span className="text-primary">Responsibilities of the Candidate:</span>
                   <ul>
-    <li>Create awareness and take care o promotional activities of Learntricks Edutech both online and offline.</li>
+    <li>Create awareness and take care o promotional activities of Reactjsofficial both online and offline.</li>
     <li>Work with the team and promote various training and workshops on social media platforms like WhatsApp and Facebook.</li>
     <li>Get your classmates from your college or nearby colleges to register for the training, workshops, and internship programs.</li>
     <li>Execute marketing campaigns and engage your college students in activities.
